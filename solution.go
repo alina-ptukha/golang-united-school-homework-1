@@ -1,15 +1,10 @@
-package solution
+package solution 
 
 import (
-
-    "github.com/kyokomi/emoji/v2"
+	
+	"github.com/kyokomi/emoji/"
 )
 
 func GetMessage() string {
-    hello := "Hello"
-    world := ":world_map:"
-    task := emoji.Sprint(hello, world)
-    task = task + " !"
-    return task
-
+	return emoji.Sprint ("Hello :world_map!:")
 }
