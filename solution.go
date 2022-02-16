@@ -8,8 +8,8 @@ import (
 func GetMessage() string {
     hello := "Hello"
     world := ":world_map:"
-    rendered := emoji.Sprint(hello, world)
-    rendered = rendered + " !"
-    return rendered
+    task := emoji.Sprint(hello, world)
+    task = task + " !"
+    return task
 
 }
