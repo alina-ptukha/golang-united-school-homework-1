@@ -1,7 +1,7 @@
 package solution 
 
 import (
-	"fmt"
+
 	"github.com/kyokomi/emoji/v2"
 )
 
